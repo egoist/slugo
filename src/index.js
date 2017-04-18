@@ -1,5 +1,5 @@
 export default function (input) {
-  input = input
+  return input
     // Remove html tags
     .replace(/<(?:.|\n)*?>/gm, '')
     // Remove special characters
@@ -8,6 +8,4 @@ export default function (input) {
     .replace(/(\s|\.)/g, '-')
     // Make the whole thing lowercase
     .toLowerCase()
-
-  return input
 }
