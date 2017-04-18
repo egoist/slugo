@@ -1,6 +1,4 @@
-export default function (input, {
-  transform
-} = {}) {
+export default function (input) {
   input = input
     // Remove html tags
     .replace(/<(?:.|\n)*?>/gm, '')
@@ -10,10 +8,6 @@ export default function (input, {
     .replace(/(\s|\.)/g, '-')
     // Make the whole thing lowercase
     .toLowerCase()
-
-  if (transform) {
-    input = transform(input)
-  }
 
   return input
 }

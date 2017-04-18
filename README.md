@@ -4,7 +4,7 @@
 
 There're many npm packages that slugify string for you, some support unicode and some others even support CJK character. But I would never include a library which weights 2MB in browser. So that's the purpose of this library which only does basic transformation, eg: remove html tags / special chars / convert space to hyphen, and does not touch UTF-8 chars. This is similar to the way GitHub handles the headings in README.
 
-And the size of this library is 816B minified and 455B gzipped.
+And the size of this library is about 700B minified and 400B gzipped.
 
 ## Install
 
@@ -24,28 +24,6 @@ slugo('hello world, <strong>my kitten!</strong>')
 ```
 
 You can also access `window.slugo` if you're using the CDN version.
-
-## API
-
-### slugo(str, [options])
-
-#### options
-
-##### transform
-
-Type: `function`<br>
-Default: `undefined`
-
-Apply an extra function to transform the string, eg:
-
-```js
-slugo('damn it', {
-  transform: function bePolite(str) {
-    return str.replace(/damn/g, 'darn')
-  }
-})
-//=> darn-it
-```
 
 ## Contributing
 
