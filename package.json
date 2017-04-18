@@ -1,6 +1,6 @@
 {
   "name": "slugo",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "The smallest possible slug utilify for Node.js and Browser",
   "repository": {
     "url": "egoist/slugo",
@@ -23,7 +23,9 @@
   "babel": {
     "env": {
       "test": {
-        "presets": ["es2015"]
+        "presets": [
+          "es2015"
+        ]
       }
     }
   },
