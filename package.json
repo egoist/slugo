@@ -1,0 +1,44 @@
+{
+  "name": "slugo",
+  "version": "0.0.0",
+  "description": "The smallest possible slug utilify for Node.js and Browser",
+  "repository": {
+    "url": "egoist/slugo",
+    "type": "git"
+  },
+  "main": "dist/slugo.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest && npm run lint && npm run build",
+    "lint": "xo",
+    "build": "bili --format umd --compress"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": ["es2015"]
+      }
+    }
+  },
+  "devDependencies": {
+    "jest-cli": "^18.1.0",
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.17.1",
+    "babel-preset-es2015": "^6.22.0",
+    "bili": "^0.14.0"
+  },
+  "xo": {
+    "extends": "rem",
+    "esnext": true,
+    "envs": [
+      "jest"
+    ]
+  }
+}
