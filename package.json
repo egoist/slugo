@@ -1,6 +1,6 @@
 {
   "name": "slugo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "The smallest possible slug utility for Node.js and Browser",
   "repository": {
     "url": "egoist/slugo",
