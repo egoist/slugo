@@ -4,7 +4,7 @@ export default function (input) {
     .replace(/<(?:.|\n)*?>/gm, '')
     // Remove special characters
     .replace(/[!\"#$%&'\(\)\*\+,\/:;<=>\?\@\[\\\]\^`\{\|\}~]/g, '') // eslint-disable-line no-useless-escape
-    // Replace dots and spaces with a sepeator
+    // Replace dots and spaces with a separator
     .replace(/(\s|\.)/g, '-')
     // Make the whole thing lowercase
     .toLowerCase()
