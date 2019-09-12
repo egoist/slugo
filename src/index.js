@@ -14,8 +14,10 @@ function slugo(input) {
   )
 }
 
-// For CommonJS default export support
-module.exports = slugo
-module.exports.default = slugo
+if (typeof module !== 'undefined') {
+  // For CommonJS default export support
+  module.exports = slugo
+  module.exports.default = slugo
+}
 
 export default slugo
