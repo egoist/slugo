@@ -1,0 +1,3 @@
+import slugo from '../'
+
+slugo('')
