@@ -8,10 +8,10 @@
   },
   "main": "dist/slugo.js",
   "module": "dist/slugo.es.js",
-  "types": "types.d.ts",
+  "types": "types/index.d.ts",
   "files": [
     "dist",
-    "types.d.ts"
+    "types"
   ],
   "scripts": {
     "test": "jest && npm run lint && npm run build",
