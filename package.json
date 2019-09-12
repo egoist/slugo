@@ -11,7 +11,7 @@
   "types": "types/index.d.ts",
   "files": [
     "dist",
-    "types"
+    "types/index.d.ts"
   ],
   "scripts": {
     "test": "jest && npm run lint && npm run build",
