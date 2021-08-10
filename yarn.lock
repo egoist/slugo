@@ -1621,7 +1621,7 @@ bytes@^3.0.0:
 
 cac@^4.2.4:
   version "4.4.4"
-  resolved "http://registry.npmjs.org/cac/-/cac-4.4.4.tgz#dec5f3f6aae29ce988d7654e1fb3c6e8077924b1"
+  resolved "https://registry.npmjs.org/cac/-/cac-4.4.4.tgz#dec5f3f6aae29ce988d7654e1fb3c6e8077924b1"
   integrity sha1-3sXz9qrinOmI12VOH7PG6Ad5JLE=
   dependencies:
     chalk "^2.0.1"
@@ -4710,9 +4710,9 @@ path-key@^2.0.0:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.5:
-  version "1.0.5"
-  resolved "http://registry.npm.taobao.org/path-parse/download/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
-  integrity sha1-PBrfhx6pzWyUMbbqK9dKD/BVxME=
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -5756,7 +5756,7 @@ rollup-pluginutils@^2.3.0:
 
 rollup@^0.57.1:
   version "0.57.1"
-  resolved "http://registry.npmjs.org/rollup/-/rollup-0.57.1.tgz#0bb28be6151d253f67cf4a00fea48fb823c74027"
+  resolved "https://registry.npmjs.org/rollup/-/rollup-0.57.1.tgz#0bb28be6151d253f67cf4a00fea48fb823c74027"
   integrity sha512-I18GBqP0qJoJC1K1osYjreqA8VAKovxuI3I81RSk0Dmr4TgloI0tAULjZaox8OsJ+n7XRrhH6i0G2By/pj1LCA==
   dependencies:
     "@types/acorn" "^4.0.3"
