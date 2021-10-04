@@ -8,7 +8,7 @@ function slugo(input) {
       // Replace dots and spaces with a short dash
       .replace(/(\s|\.)/g, '-')
       // Replace multiple dashes with a single dash
-      .replace(/[-]{2,}/, '-')
+      .replace(/-{2,}/g, '-')
       // Replace long dash with two short dashes
       .replace(/—/g, '--')
       // Make the whole thing lowercase
